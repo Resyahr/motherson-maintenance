@@ -1,53 +1,33 @@
-# Next.js & NextUI Template
+# Motherson Maintenance App
 
-This is a template for creating applications using Next.js 14 (app directory) and NextUI (v2).
+The Motherson Maintenance App is a comprehensive inventory and issue tracking solution designed to streamline maintenance operations. This app helps store and manage inventory, resolve recurring issues, and archive previously solved problems for quick reference.
 
-[Try it on CodeSandbox](https://githubbox.com/nextui-org/next-app-template)
+## Features
 
-## Technologies Used
+- **Inventory Management**: Track and manage items in the inventory.
+- **Issue Logging and Archiving**: Log issues, resolve them, and keep an archive for future reference.
+- **User Management**: Add, edit, and delete users with role-based access control.
+- **Scalability**: Designed to scale with the growth of the maintenance team.
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [NextUI v2](https://nextui.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+## Tech Stack
 
-## How to Use
+- **Frontend**: Next.js, React, TailwindCSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: NextAuth for user authentication and JWT handling
+- **File Storage**: Firebase for image uploads
 
-### Use the template with create-next-app
+## Getting Started
 
-To create a new project based on this template using `create-next-app`, run the following command:
+### Prerequisites
 
-```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
-```
+Ensure you have the following installed:
+- Node.js
+- MongoDB
+- Git
 
-### Install dependencies
+### Installation
 
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
-npm install
-```
-
-### Run the development server
-
-```bash
-npm run dev
-```
-
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@nextui-org/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Resyahr/motherson-maintenance.git
